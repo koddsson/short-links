@@ -14,6 +14,25 @@
     <link rel="stylesheet" href="./src/css/index.css" />
   </head>
   <body>
-    <h1>My app!</h1>
+    <header>
+      <h1>Little Links</h1>
+    </header>
+    <main>
+      <form>
+        <div class="form-field">
+          <label for="url">URL</label>
+          <input type="url" id="url" required>
+        </div>
+
+        <div class="form-field">
+          <label for="slug">Slug</label>
+          <input type="text" id="slug" required>
+        </div>
+
+        <button>Save URL</button>
+      </form>
+      <ul id="list"></ul>
+    </main>
+    <footer></footer>
   </body>
 </html>

@@ -1,2 +1,28 @@
 @import "open-props/src/index.css";
 @import "open-props/src/extra/normalize.css";
+
+body {
+  padding: 15vmin;
+}
+
+h1,
+.form-field {
+  margin-bottom: var(--size-2);
+}
+
+input {
+  width: 100%;
+}
+
+form {
+  margin-bottom: var(--size-3);
+}
+
+#list {
+  list-style: none;
+  padding: 0;
+}
+
+h1 {
+  font-size: var(--font-size-7);
+}
